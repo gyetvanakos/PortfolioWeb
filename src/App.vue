@@ -11,13 +11,12 @@
 </template>
 
 <script>
-import header from './views/header.vue'
+import Header from './views/Header.vue'
 
 export default {
   name: 'App',
-
   components: {
-    'webapp-header':header,
+    'webapp-header':Header,
   },
 
   data: () => ({

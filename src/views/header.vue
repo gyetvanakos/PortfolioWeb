@@ -96,6 +96,9 @@ a{
     background: var(--inv);
     transition-delay: .35s;
 }
+.btn:focus{
+    outline: 0;
+}
   
 .btn:before, 
 .btn:after {
@@ -123,22 +126,6 @@ a{
   
 *, *:before, *:after {
     box-sizing: border-box;
-}
-
-a:link {
-    text-decoration: none;
-}
-  
-a:hover {
-    text-decoration: none;
-}
-  
-a:active {
-    text-decoration: none;
-}
-
-a:visited{
-    color:#c6c6cc;
 }
 
 @media screen and (max-width:900px) {
