@@ -3,12 +3,12 @@
     <div id="app">
     <section id="container">
         <div id="portfolio">
-            <div class="content"></div>
-            <div class="content"></div>
-            <div class="content"></div>
-            <div class="content"></div>
-            <div class="content"></div>
-            <div class="content"></div>
+            <div class="content" id="first"></div>
+            <div class="content" id="second"></div>
+            <div class="content" id="third"></div>
+            <div class="content" id="fourth"></div>
+            <div class="content" id="fifth"></div>
+            <div class="content" id="sixth"></div>
         </div>
     </section>
     </div>
@@ -47,12 +47,13 @@
 }
 
 .content{
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     background: #c6c6cc;
     margin-top: 20px;
     border-radius: 25px;
     margin-bottom: 20px;
+    border: solid #c6c6cc 1px;
 }
 
 #socials{
@@ -89,6 +90,48 @@ a:active {
 
 a:visited{
     color:#c6c6cc;
+}
+
+#first{
+    background-image: url("../assets/clonesoldier.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+#second{
+    background-image: url("../assets/minime.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+#third{
+    background-image: url("../assets/pizza.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+#fourth{
+    background-image: url("../assets/spacesuits.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+#fifth{
+    background-image: url("../assets/logoek.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+#sixth{
+    background-image: url("../assets/site.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
 }
 
 @media screen and (max-width:900px) {

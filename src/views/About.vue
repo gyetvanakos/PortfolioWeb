@@ -19,24 +19,24 @@
         <p>
           Hello!
           My name is Akos Gyetvan, 24 years old, I’m from Budapest, Hungary.
-          Currently I’m studying for Multimedia deisgn degree at the Business Academy Southwest in Esbjerg.
-          where I learnt about HTML, CSS and Javascript.
+          Currently, I’m studying for Multimedia Design degree at the Business Academy Southwest in Esbjerg
+          where I've learnt about HTML, CSS and Javascript.
           <br />I have got some experience in terms of logo creating, photo editing and also how to create an user friendly website. I always try to focus on to turn my interests into my job, which I may do in the future. Due to this passion, I have started to learn how to use different 3D graphics softwares, such as Blender and Zmodeler.
         </p>
       </div>
+      <section id="infobox">
+      <div id="buttons">
+        <a href="https://www.youtube.com/watch?v=bQjr0iKSZ4M"><i class="fas fa-video"></i></a>
+        <a href="mailto:gyetvanakos@gmail.com"><i class="fas fa-envelope"></i></a>
+        <a href="https://drive.google.com/open?id=1k5UH_LYNI7hifH7zNYGOx1OwueB_aurN"><i class="fas fa-sticky-note"></i></a>
+      </div>
+    </section>
       <div class="text">
         <h1>My skills</h1>
       </div>
     </section>
     <section id="barchart">
       <div class="skillChart" ref="chartdiv"></div>
-    </section>
-    <section id="infobox">
-      <div id="buttons">
-        <i class="fas fa-video"></i>
-        <i class="fas fa-envelope"></i>
-        <i class="fas fa-sticky-note"></i>
-      </div>
     </section>
   </div>
 </template>
@@ -56,19 +56,19 @@ export default {
     chart.data = [
       {
         skill: "HTML",
-        htmlSkillValue: 50
+        htmlSkillValue: 75
       },
       {
         skill: "CSS",
-        cssSkillValue: 50
+        cssSkillValue: 70
       },
       {
         skill: "JavaScript",
-        javaScriptSkillValue: 50
+        javaScriptSkillValue: 25
       },
       {
         skill: "Design",
-        designSkillValue: 89
+        designSkillValue: 85
       }
     ];
 
@@ -88,7 +88,7 @@ export default {
     series.name = "Value (%)";
     series.tooltipText = "{name}: [bold]{valueY}[/]";
     series.stacked = true;
-    series.columns.template.fill = am4core.color("#104547"); // fill
+    series.columns.template.fill = am4core.color("#e5562a"); // fill
 
     // Create series
     var series2 = chart.series.push(new am4charts.ColumnSeries());
@@ -97,7 +97,7 @@ export default {
     series2.name = "Value (%)";
     series2.tooltipText = "{name}: [bold]{valueY}[/]";
     series2.stacked = true;
-    series2.columns.template.fill = am4core.color("#104547"); // fill
+    series2.columns.template.fill = am4core.color("#0e74bb"); // fill
 
     // Create series
     var series3 = chart.series.push(new am4charts.ColumnSeries());
@@ -106,7 +106,7 @@ export default {
     series3.name = "Value (%)";
     series3.tooltipText = "{name}: [bold]{valueY}[/]";
     series3.stacked = true;
-    series3.columns.template.fill = am4core.color("#c6c6cc"); // fill
+    series3.columns.template.fill = am4core.color("#e5a52c"); // fill
 
       // Create series
     var series4 = chart.series.push(new am4charts.ColumnSeries());
@@ -115,7 +115,7 @@ export default {
     series4.name = "Value (%)";
     series4.tooltipText = "{name}: [bold]{valueY}[/]";
     series4.stacked = true;
-    series4.columns.template.fill = am4core.color("#c6c6cc"); // fill
+    series4.columns.template.fill = am4core.color("#4cb690"); // fill
 
     // Add cursor
     chart.cursor = new am4charts.XYCursor();
