@@ -4,19 +4,21 @@
       <section id="container">
         <div id="projects">
           <h1>MY PROJECTS</h1>
-          <a href="https://bass-2019.netlify.app" class="school"><div class="content" id="firstsem"></div></a>
-          <div class="bottom">
+          <a href="https://projectwebd.online/login-at-home/Presentation/index.php" class="school"><div class="content" id="deepbook"></div></a
+            >
+            <div class="bottom">
             <a class="gitrepo" href="https://github.com/gyetvanakos"
               ><i class="fab fa-github"></i
             ></a>
           </div>
-          <a href="https://howtocovid.netlify.app/" class="school"><div class="content" id="secondsem"></div></a>
-          <div class="bottom">
+          <a href="https://rkexpo.netlify.app/" class="school"><div class="content" id="rkexpo"></div></a
+            >
+            <div class="bottom">
             <a class="gitrepo" href="https://github.com/gyetvanakos"
               ><i class="fab fa-github"></i
             ></a>
           </div>
-          <a href="https://webshop-1bc0c.web.app/" class="school"><div class="content" id="thirdsem"></div></a
+          <a href="https://webshop-1bc0c.web.app/" class="school"><div class="content" id="sneakernation"></div></a
             >
           <div>
             <div class="bottom">
@@ -25,16 +27,14 @@
             ></a>
           </div>
           </div>
-          <a href="https://rkexpo.netlify.app/" class="school"><div class="content" id="fourthsem"></div></a
-            >
-            <div class="bottom">
+          <a href="https://howtocovid.netlify.app/" class="school"><div class="content" id="howtocovid"></div></a>
+          <div class="bottom">
             <a class="gitrepo" href="https://github.com/gyetvanakos"
               ><i class="fab fa-github"></i
             ></a>
           </div>
-          <a href="https://projectwebd.online/login-at-home/Presentation/index.php" class="school"><div class="content" id="deepbook"></div></a
-            >
-            <div class="bottom">
+          <a href="https://bass-2019.netlify.app" class="school"><div class="content" id="bass"></div></a>
+          <div class="bottom">
             <a class="gitrepo" href="https://github.com/gyetvanakos"
               ><i class="fab fa-github"></i
             ></a>
@@ -250,6 +250,45 @@ h1 {
 .gitrepo {
   font-size: 30px;
 }
+
+#deepbook{
+  background-image: url("../assets/deepbook.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#rkexpo{
+  background-image: url("../assets/rkexpo.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+#sneakernation{
+  background-image: url("../assets/sneakernation.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
+#howtocovid{
+  background-image: url("../assets/howtocovid.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+#bass{
+  background-image: url("../assets/bass.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+
 
 @media screen and (max-width: 900px) {
   .content {
