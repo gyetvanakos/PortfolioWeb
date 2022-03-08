@@ -11,16 +11,16 @@
                 </div>
             </div>
             <div id="socials">
-                <a href="https://www.facebook.com/akos.gyetvan">
-                    <i class="fab fa-facebook-f"></i>
-                </a>
-                <a href="https://www.instagram.com/akosgyetvan/">
-                    <i class="fab fa-instagram"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/akosgyetvan">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
-            </div>
+      <a href="https://www.facebook.com/akos.gyetvan"
+        ><i class="fab fa-facebook-f"></i
+      ></a>
+      <a href="https://github.com/gyetvanakos"
+        ><i class="fab fa-github"></i></a>
+      <a href="https://www.linkedin.com/in/akosgyetvan"
+        ><i class="fab fa-linkedin-in"></i
+      ></a>
+      <a href="mailto:gyetvanakos@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
         </section>
     </div>
 </template>
