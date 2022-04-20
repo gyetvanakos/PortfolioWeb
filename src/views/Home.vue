@@ -4,7 +4,7 @@
         <section id="container">
             <div id="introbox">
                 <div id="intro">
-                    <p>Hello, I'm a multimedia student at the BASV. Welcome on my portfolio site!</p>
+                    <p>Hello, I'm a Web developer student at the BASV. Welcome on my portfolio site!</p>
                 </div>
                 <div id="me">
                     <img src="@/assets/me.png" alt="me"/>

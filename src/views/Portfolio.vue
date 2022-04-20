@@ -7,14 +7,14 @@
           <a href="https://projectwebd.online/login-at-home/Presentation/index.php" class="school"><div class="content" id="deepbook"></div></a
             >
             <div class="bottom">
-            <a class="gitrepo" href="https://github.com/gyetvanakos"
+            <a class="gitrepo" href="https://github.com/gyetvanakos/DWP"
               ><i class="fab fa-github"></i
             ></a>
           </div>
           <a href="https://rkexpo.netlify.app/" class="school"><div class="content" id="rkexpo"></div></a
             >
             <div class="bottom">
-            <a class="gitrepo" href="https://github.com/gyetvanakos"
+            <a class="gitrepo" href="https://github.com/gyetvanakos/rkexpo"
               ><i class="fab fa-github"></i
             ></a>
           </div>
@@ -22,14 +22,14 @@
             >
           <div>
             <div class="bottom">
-            <a class="gitrepo" href="https://github.com/gyetvanakos"
+            <a class="gitrepo" href="https://github.com/gyetvanakos/sneakernation"
               ><i class="fab fa-github"></i
             ></a>
           </div>
           </div>
           <a href="https://howtocovid.netlify.app/" class="school"><div class="content" id="howtocovid"></div></a>
           <div class="bottom">
-            <a class="gitrepo" href="https://github.com/gyetvanakos"
+            <a class="gitrepo" href="https://github.com/gyetvanakos/HowToCovidLive"
               ><i class="fab fa-github"></i
             ></a>
           </div>
