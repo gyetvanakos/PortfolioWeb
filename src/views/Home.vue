@@ -4,7 +4,7 @@
         <section id="container">
             <div id="introbox">
                 <div id="intro">
-                    <p>Hello, I'm a Web developer student at the BASV. Welcome on my portfolio site!</p>
+                    <p>Hello, I'm a Web Developer student at the BASV. Welcome on my portfolio site!</p>
                 </div>
                 <div id="me">
                     <img src="@/assets/me.png" alt="me"/>
@@ -19,7 +19,6 @@
       <a href="https://www.linkedin.com/in/akosgyetvan"
         ><i class="fab fa-linkedin-in"></i
       ></a>
-      <a href="mailto:gyetvanakos@gmail.com"><i class="fas fa-envelope"></i></a>
     </div>
         </section>
     </div>
@@ -69,7 +68,7 @@
     }
 
     #intro {
-        color: #000;
+        color: #2d2d2d;
         height: 100px;
         width: 600px;
         margin: 130px 0 500px 130px;
@@ -97,7 +96,7 @@
     }
 
     a:hover {
-        color: black;
+        color: #2d2d2d;
     }
 
     a:link {

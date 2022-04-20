@@ -67,7 +67,6 @@
       <a href="https://www.linkedin.com/in/akosgyetvan"
         ><i class="fab fa-linkedin-in"></i
       ></a>
-      <a href="mailto:gyetvanakos@gmail.com"><i class="fas fa-envelope"></i></a>
     </div>
   </div>
 </template>
@@ -117,7 +116,7 @@ export default {};
 }
 
 .school {
-  color: black;
+  color: #2d2d2d;
 }
 .school:hover {
 }
@@ -130,7 +129,7 @@ a {
 }
 
 a:hover {
-  color: black;
+  color: #2d2d2d;
 }
 
 a:link {
@@ -150,7 +149,7 @@ a:visited {
 }
 
 a:hover {
-  color: black;
+  color: #2d2d2d;
 }
 
 h1 {

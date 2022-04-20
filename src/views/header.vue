@@ -26,7 +26,7 @@ header{
   align-items: center;
   justify-content: center;
   margin:10px;
-  color:black;
+  color:#2d2d2d;
 }
 
 #logo{
@@ -40,7 +40,7 @@ header{
   flex-grow: 0.5;
   align-content: center;
   display: flex;
-  color: #000000;
+  color: #2d2d2d;
   margin: auto;
   text-decoration: none;
   letter-spacing: 3px;
@@ -54,7 +54,7 @@ a{
 }
   
   a:hover{
-    color:black;
+    color:#2d2d2d;
   }
 
   
@@ -71,7 +71,7 @@ a{
     cursor: pointer;
     user-select: none;
     --def: #fff; 	
-    --inv: #000;
+    --inv: #2d2d2d;
 
 }
   
